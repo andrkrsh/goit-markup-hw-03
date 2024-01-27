@@ -47,6 +47,11 @@ img {
   display: block;
 }
 
+li {
+  padding: 0;
+  margin: 0;
+}
+
 .container {
   width: 1158px;
   margin: 0 auto;
