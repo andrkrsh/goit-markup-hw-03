@@ -1,3 +1,8 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -49,7 +54,10 @@ img {
 
 ul {
   list-style: none;
-  padding: 0;
+}
+
+a {
+  text-decoration: none;
 }
 
 .container {
@@ -106,6 +114,7 @@ header a {
   font-weight: 500;
   text-decoration: none;
   padding: 24px 0;
+  display: block;
 }
 
 .adress {
@@ -118,7 +127,6 @@ header a {
 .adress-menu {
   display: flex;
   align-items: center;
-  padding: 24px 0;
   gap: 40px;
 }
 
@@ -276,17 +284,11 @@ header a {
 
 .footer-logo {
   display: inline-block;
-  margin-bottom: 16px;
+  margin: 0 0 0 16px;
 }
 
 .footer-text {
   color: #f4f4fd;
-}
-
-.footer-container {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
 }
 
 .footer p {
