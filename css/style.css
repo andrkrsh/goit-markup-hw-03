@@ -99,10 +99,6 @@ a {
   text-decoration: none;
 }
 
-.header .logo {
-  margin-right: 76px;
-}
-
 .header-logo-span {
   color: #2e2f42;
 }
@@ -149,6 +145,7 @@ header a {
 
 .introduction-title {
   max-width: 496px;
+  margin: 0 auto 48px;
 }
 
 .introduction-container {
@@ -173,6 +170,7 @@ header a {
   border: none;
   border-color: #4d5ae5;
   cursor: pointer;
+  margin: 0 auto;
 }
 
 .btn:hover,
