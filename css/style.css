@@ -290,8 +290,5 @@ header a {
 
 .footer-text {
   color: #f4f4fd;
-}
-
-.footer p {
-  width: 256px;
+  max-width: 264px;
 }
